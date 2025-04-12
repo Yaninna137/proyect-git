@@ -2,12 +2,17 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>Mini App Web</title>
+  <title>Miniaplicación web con uso de Git</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>¡Hola desde tu mini app web! 🚀</h1>
-  <button onclick="saludar()">Haz clic aquí</button>
+  <h1>Miniaplicación web con uso de Git</h1>
+  <h2>Juego: Adivina el número (entre 1 y 10)</h2>
+
+  <input type="number" id="entrada" min="1" max="10">
+  <button onclick="verificarNumero()">Probar</button>
+
+  <p id="mensaje"></p>
 
   <script src="script.js"></script>
 </body>
